@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>有风的日子</title>
+    <style>
+      :root {
+        --text-color: #ccc;
+        --font-light: 300;
+        --border-radius: 50%;
+      }
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        height: 100%;
+		background: url('https://cn.bing.com/th?id=OHR.HalfDomeYosemite_EN-US4890007214_1920x1080.jpg') no-repeat center center;
+        background-size: cover;
+      }
+      .info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-weight: var(--font-light);
+        position: relative;
+        width: 60%;
+		color: #fff;
+      }
+      .index_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .index_txt {
+        text-align: center;
+        font-weight: var(--font-light);
+      }
+      .index_txt img {
+        border-radius: var(--border-radius);
+        width: 140px;
+        height: 140px;
+      }
+      .index_txt h1 {
+        font-size: 30px;
+        margin: 20px 0;
+      }
+      .zuobiao,
+      .record-info {
+        color: var(--text-color);
+        line-height: 1.8;
+        font-size: 14px;
+      }
+      ul,
+      ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .index_txt p {
+        font-size: 16px;
+        font-weight: inherit;
+        line-height: 30px;
+        width: 70%;
+        margin: 20px auto;
+      }
+      .description {
+        font-size: 20px;
+        color: #333;
+      }
+      .nav {
+        margin-top: 20px;
+      }
+      .nav_box {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+      }
+      .nav_box a {
+        text-decoration: none;
+        color: #ccc;
+      }
+      .record-info {
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <div class="index_box">
+          <div class="index_txt">
+            <img src="https://dn-qiniu-avatar.qbox.me/avatar/35cd93b91c2462a37b3d480a635b84e6" alt="用户头像" />
+            <h1>有风的日子</h1>
+            <p>有风的日子，有我，有你。</p>
+            <div class="zuobiao">
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-geo-alt"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"
+                ></path>
+                <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+              </svg>
+              中国 · 广东
+            </div>
+            <nav class="nav">
+              <div class="nav_box">
+                <a href="/" title="首页">首页</a>
+                <a href="https://xiaoa.me" target="_blank" title="博客">博客</a>
+                <a href="https://bee.la" target="_blank" title="导航">导航</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <footer class="record-info"></footer>
+      </div>
+    </div>
+  </body>
+</html>
